@@ -1,0 +1,45 @@
+Load Balancer concept:
+-------------------------
+
+Application Load Balancer (ALB)
+🔄 Routing: Based on URL paths, hostnames, headers.
+🔧 Protocols/Ports: HTTP (80), HTTPS (443).
+💻 Use Case: Web apps, microservices.
+🌟 Example: Routes https://example.com/api to one server and https://example.com/images to another.
+🚀 Advantage: Advanced content-based routing.
+
+🔹 Network Load Balancer (NLB)
+🔄 Routing: TCP/UDP traffic.
+🔧 Protocols/Ports: TCP/UDP (any port).
+💻 Use Case: Real-time apps, gaming.
+🌟 Example: Routes TCP traffic on port 80 to multiple servers.
+🚀 Advantage: High performance and low latency.
+
+🔹 Classic Load Balancer (CLB)
+🔄 Routing: Round Robin, Least Requests.
+🔧 Protocols/Ports: HTTP (80), HTTPS (443), TCP (any port).
+💻 Use Case: Basic web apps.
+🌟 Example: Distributes HTTP requests evenly or to the least busy server.
+🚀 Advantage: Simple load balancing for legacy applications.
+
+
+🔹 Gateway Load Balancer (GWLB)
+🔄 Routing: Traffic to security appliances.
+🔧 Protocols/Ports: TCP/UDP (any port).
+💻 Use Case: Network security.
+🌟 Example: Sends traffic to firewalls or intrusion detection systems.
+🚀 Advantage: Simplifies integration of network security appliances.
+Collapse
+
+
+
+
+
+
+
+
+
+
+
+
+
